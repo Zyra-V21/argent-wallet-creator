@@ -192,22 +192,10 @@ This is an MVP for research and development. Focus on:
 
 ---
 
-## 🚨 **FINAL SECURITY REMINDER** 🚨
+**MILESTONES/IDEAS** for contribute:
 
-### **THIS MVP VIOLATES PRODUCTION SECURITY STANDARDS**
-
-**🔴 Critical Issues:**
-- ❌ Stores private keys in plaintext JSON
-- ❌ No encryption for sensitive data  
-- ❌ Custodial wallet architecture
-- ❌ Single point of failure
-- ❌ No proper key rotation
-- ❌ Vulnerable to data breaches
-
-**✅ Production Architecture Should:**
-- Use account abstraction for gasless UX
+- Use account abstraction for gasless UX 
 - Generate wallets client-side only
-- Never store private keys server-side
 - Implement proper session management
 - Use hardware security modules (HSM)
 - Follow zero-knowledge principles
