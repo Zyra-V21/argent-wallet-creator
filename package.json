@@ -1,0 +1,32 @@
+{
+  "name": "invisible-wallet",
+  "version": "1.0.0",
+  "description": "Automated Starknet L2 wallet creation system for seamless L1↔L2 bridge operations",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "create": "node index.js create",
+    "list": "node index.js list",
+    "test": "node index.js create test_$(date +%s)",
+    "dev": "DEBUG=1 node index.js"
+  },
+  "keywords": [
+    "starknet",
+    "wallet",
+    "bridge",
+    "l2",
+    "argent",
+    "cairo",
+    "ethereum"
+  ],
+  "author": "Invisible Wallet Team",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "starknet": "^6.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
