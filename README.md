@@ -4,6 +4,7 @@ Automated Starknet L2 wallet creation system that generates, funds, and deploys 
 
 ---
 
+
 # ⚠️ 🚨 CRITICAL SECURITY WARNING 🚨 ⚠️
 
 ## 🔴 **THIS IS A DEVELOPMENT-ONLY MVP - NOT FOR PRODUCTION USE**
@@ -214,3 +215,5 @@ This is an MVP for research and development. Focus on:
 **⚠️ Testnet Only**: Currently configured for Sepolia testnet. **NEVER use on mainnet without complete security overhaul.**
 
 **🎯 Remember**: This is a **learning tool** and **proof of concept** - not production-ready code.
+
+*DISCLAIMER: I know that this may be doable just by using starknet-js w/o sncast/starkli, but I can't simply make v3 transaction's resource bounds work as expected.**
